@@ -51,10 +51,6 @@ module.exports = {
       files: ['**/*.md'],
       processor: 'markdown/markdown',
     },
-    // {
-    //   extends: ['plugin:solid/typescript'],
-    //   files: ['*.tsx'],
-    // },
     {
       files: ['**/*.{yml,yaml}'],
       parser: 'yaml-eslint-parser',
@@ -89,7 +85,6 @@ module.exports = {
     'deprecation',
     'jsx-a11y',
     'regexp',
-    // 'solid',
     'simple-import-sort',
     'typescript-sort-keys',
   ],
