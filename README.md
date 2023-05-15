@@ -15,6 +15,7 @@
 - Gitignore
 - MIT License
 - TS import aliases
+- PNPM scripts for linting/formatting
 
 ## Credits
 
