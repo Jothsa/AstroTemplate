@@ -1,3 +1,26 @@
 {
-  "extends": "astro/tsconfigs/strictest"
+  "extends": "astro/tsconfigs/strictest",
+  // "include": [
+  //   "**/*.js",
+  //   "**/*.ts",
+  //   "**/*.tsx",
+  //   "**/*.astro",
+  //   "eslintrc.cjs",
+  //   "astro.config.mjs",
+  //   "globals.d.ts"
+  // ],
+  "compilerOptions": {
+    // "verbatimModuleSyntax": true,
+    // "allowJs": true,
+    //* breaks path aliases if baseURL not set
+    "baseUrl": ".",
+    "target": "ES2022",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@pages/*": ["src/pages/*"],
+      "@styles/*": ["src/styles/*"],
+      "@assets/*": ["src/assets/*"]
+    }
+  }
 }
