@@ -16,6 +16,8 @@
 - MIT License
 - TS import aliases
 - PNPM scripts for linting/formatting
+- Lint-Staged
+- Husky
 
 ## Credits
 
