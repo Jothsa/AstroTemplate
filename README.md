@@ -5,7 +5,7 @@
 - Prettier
 - Eslint (typescript, type-checking, strict, jsx-a11y, regexp, typescript-sort-keys, json, jsonc, md, and yaml)
 - Typescript
-- Stylelint (idiomatic-order and high-performance-animation)
+- Stylelint (idiomatic-order and high-performance-animation via @jothsa/stylelint-config)
 - Postcss (preset-env)
 - Vscode settings (wip)
 - Super minimal base styles/reset
