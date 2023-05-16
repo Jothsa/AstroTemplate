@@ -1,23 +1,10 @@
 {
   // "cssvar.files": [
-  // "node_modules/open-props/open-props.min.css",
-  // "node_modules/open-props/color-oklch.min.css",
-  // "node_modules/open-props/oklch-hues.min.css",
-  // "node_modules/open-props/gray-oklch.min.css"
-  // "./src/styles/props.postcss"
-  // if you have an alternative path to where your styles are located
-  // you can add it in this array of files
-  // "assets/styles/variables.css"
+  // "src/styles/variables.css"
   // ],
 
-  // Do not ignore node_modules css files, which is ignored by default
-  // "cssvar.ignore": [],
-
-  // add support for autocomplete in JS or JS like files
+  // add support for autocomplete in other files
   "cssvar.extensions": ["css", "postcss", "jsx", "tsx"],
-
-  // "typescript.suggest.paths": false,
-  // "javascript.suggest.paths": false
 
   "stylelint.validate": ["html", "svelte", "astro"],
 
