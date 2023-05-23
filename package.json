@@ -19,17 +19,17 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@astrojs/prefetch": "^0.2.2",
-    "astro": "^2.5.0"
+    "@astrojs/prefetch": "^0.2.3",
+    "astro": "^2.5.3"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^1.0.3",
     "@jothsa/stylelint-config": "^0.0.3",
     "@jothsa/stylelint-config-idiomatic-order": "^0.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.59.6",
-    "@typescript-eslint/parser": "^5.59.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
     "csstype": "^3.1.2",
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-astro": "^0.27.0",
     "eslint-plugin-deprecation": "^1.4.1",
@@ -48,7 +48,7 @@
     "postcss-html": "^1.5.0",
     "postcss-import": "^15.1.0",
     "postcss-jit-props": "^1.0.13",
-    "postcss-preset-env": "^8.3.2",
+    "postcss-preset-env": "^8.4.1",
     "prettier": "^2.8.8",
     "prettier-plugin-astro": "^0.9.0",
     "stylelint": "^15.6.2",
