@@ -6,6 +6,8 @@ export interface Props {
 const { title } = Astro.props;
 
 import '@styles/index.css';
+
+// you might want to move the h1 to a header component, but its here to keep the demo simpler
 ---
 
 <!DOCTYPE html>
@@ -19,6 +21,23 @@ import '@styles/index.css';
     <title>{title}</title>
   </head>
   <body>
+    <h1>{title}</h1>
     <main><slot /></main>
   </body>
 </html>
+
+<style>
+  body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  h1 {
+    padding: 2rem;
+  }
+</style>
