@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@astrojs/prefetch": "^0.2.3",
-    "astro": "^2.5.3"
+    "astro": "^2.8.0"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^1.0.3",
