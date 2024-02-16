@@ -23,6 +23,6 @@
   "prettier.documentSelectors": ["**/*.astro"],
 
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   }
 }
