@@ -24,5 +24,6 @@
 
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
-  }
+  },
+  "cSpell.words": ["tseslint"]
 }

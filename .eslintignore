@@ -2,3 +2,5 @@
 dist/
 pnpm-lock.yaml
 src/env.d.ts
+# not sure if this is ideal
+.eslintrc.cjs

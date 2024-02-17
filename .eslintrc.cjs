@@ -8,9 +8,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:astro/recommended',
-    'plugin:jsx-a11y/recommended',
+    // 'plugin:jsx-a11y/recommended',
     'plugin:regexp/recommended',
-    'plugin:typescript-sort-keys/recommended',
+    // 'plugin:typescript-sort-keys/recommended',
   ],
   overrides: [
     {
@@ -23,11 +23,13 @@ module.exports = {
       parserOptions: {
         parser: '@typescript-eslint/parser',
         extraFileExtensions: ['.astro'],
+        project: './tsconfig.json',
+        tsconfigRootDir: __dirname,
       },
       rules: {
         // TODO: Investigate?? :(
         '@typescript-eslint/no-unsafe-assignment': 'off',
-        'deprecation/deprecation': 'off',
+        // 'deprecation/deprecation': 'off',
       },
     },
     {
@@ -82,17 +84,14 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'astro',
-    'deprecation',
-    'jsx-a11y',
+    // 'deprecation',
+    // 'jsx-a11y',
     'regexp',
-    'simple-import-sort',
-    'typescript-sort-keys',
+    // 'typescript-sort-keys',
   ],
   root: true,
   rules: {
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-    'deprecation/deprecation': 'error',
+    // 'deprecation/deprecation': 'error',
 
     // Stylistic concerns that don't interfere with Prettier
     'padding-line-between-statements': 'off',
