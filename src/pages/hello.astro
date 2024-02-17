@@ -1,7 +1,10 @@
 ---
+import astroLogo from '$assets/astro-icon-light-gradient.png';
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Hello">
   <a href="/">Welcome</a>
+  <Image src={astroLogo} alt="Astro Logo" />
 </Layout>

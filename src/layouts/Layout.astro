@@ -3,11 +3,11 @@ export interface Props {
   title: string;
 }
 
+import Header from '$components/Header.astro';
+import '$styles/index.css';
+import { ViewTransitions } from 'astro:transitions';
+
 const { title } = Astro.props;
-
-import '@styles/index.css';
-
-// you might want to move the h1 to a header component, but its here to keep the demo simpler
 ---
 
 <!doctype html>
@@ -15,29 +15,28 @@ import '@styles/index.css';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="view-transition" content="same-origin" />
+    <ViewTransitions />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body>
-    <h1>{title}</h1>
+    <Header {title} />
     <main><slot /></main>
+    <style>
+      body {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+      }
+
+      main {
+        text-align: center;
+      }
+
+      h1 {
+        padding: 2rem;
+      }
+    </style>
   </body>
 </html>
-
-<style>
-  body {
-    display: grid;
-    align-content: center;
-    justify-content: center;
-  }
-
-  main {
-    text-align: center;
-  }
-
-  h1 {
-    padding: 2rem;
-  }
-</style>
