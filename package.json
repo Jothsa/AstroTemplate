@@ -19,7 +19,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "astro": "^4.4.0"
+    "astro": "^4.5.5"
   },
   "devDependencies": {
     "@csstools/postcss-global-data": "^2.1.1",
